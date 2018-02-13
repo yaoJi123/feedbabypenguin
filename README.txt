@@ -1,10 +1,3 @@
-Name:YAO JI
-Clemson Email Address:yaoj@g.clemson.edu
-Course number: 6160
-
-Project no:6
-Project due date:12/2/2016
-
 Project description:
 0.button control : A: goLeft
                    D: goRight
