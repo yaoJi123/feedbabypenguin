@@ -5,7 +5,7 @@ Project description:
                    G: GodMod
                    R: reset
                    F1: toggle information hud(left up corner) and pool hud(right up corner)
-                       **I use F1 to tooglt information hud and pool hud instead of F2
+            
 1.To win this game you need to find fish and bring it to baby (player's position X > 1000), if you didn't get fish just go to baby wouldn't win;
 2.Enemys(crows) will not show until you find fish. if collided with one of them, you will die, and need to press r to restart;
 3.Player(penguin) can't shoot bullet, but you have a smart Friend red robin (AI), he will follows you and shoot snowflake to kill crows. 
