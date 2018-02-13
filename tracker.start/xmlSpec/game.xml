@@ -1,0 +1,220 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Yao Ji's The Adventure Of penguin</screenTitle>
+<maxStringSize>50</maxStringSize>
+<numberOfOrbs>2000</numberOfOrbs>
+<numberOfEnemys>5</numberOfEnemys>
+<numberOfFoods>1</numberOfFoods>
+<showtime>2</showtime>
+<safeDistance>400</safeDistance>
+<win>1200</win>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<frameMax>500</frameMax>
+<username>YaoJi</username>
+
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<hud>
+  <positionX>0</positionX>
+  <positionY>0</positionY>
+  <thickness>100</thickness>
+  <width>390</width>
+  <height>410</height>
+  <setcolorkey>true</setcolorkey>
+</hud>
+
+<poolhud>
+  <positionX>640</positionX>
+  <positionY>0</positionY>
+  <thickness>100</thickness>
+  <width>200</width>
+  <height>100</height>
+  <setcolorkey>true</setcolorkey>
+</poolhud>
+
+<endhud>
+  <positionX>0</positionX>
+  <positionY>100</positionY>
+  <thickness>100</thickness>
+  <width>1000</width>
+  <height>300</height>
+  <setcolorkey>true</setcolorkey>
+</endhud>
+
+
+<clock>
+  <locX>10</locX>
+  <locY>10</locY>
+</clock>
+
+
+<world>
+  <width>1500</width>
+  <height>656</height>
+</world>
+
+<frontback>
+  <file>images/sea.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</frontback>
+
+<firstback>
+  <file>images/Glacier.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</firstback>
+
+<seamback>
+  <file>images/seamm.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>5</factor>
+  <transparency>false</transparency>
+</seamback>
+
+<back>
+  <file>images/graysky.jpg</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>10</factor>
+  <transparency>false</transparency>
+</back>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>20</size>
+  <red>255</red>
+  <green>127</green>
+  <blue>80</blue>
+  <unused>0</unused>
+</font>
+
+<penguin>
+  <file>images/penguin.png</file>
+  <startLoc x="600" y="355"/>
+  <frames>12</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+<chunk>
+    <size>20</size>
+    <distance>50</distance>
+  </chunk>
+</penguin>
+<penguinStrategy>rectangular</penguinStrategy>
+
+<dog>
+  <file>images/birdsfriend.png</file>
+  <startLoc x="500" y="200"/>
+  <frames>6</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>100</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</dog>
+<dogStrategy>rectangular</dogStrategy>
+
+<snow>
+  <file>images/birds.png</file>
+  <startLoc x="210" y="0"/>
+  <cushion>50</cushion>
+  <scale min="0.5" max="1.5"/>
+  <src x="0" y="0"/>
+  <loc x="0" y="240"/>
+  <speed x="150" y="150"/>
+  <frames>3</frames>
+  <frameInterval>20</frameInterval>
+  <speedX>10</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</snow>
+<snowStrategy>rectangular</snowStrategy>
+
+<cheese>
+  <file>images/birds.png</file>
+  <startLoc x="210" y="500"/>
+  <cushion>50</cushion>
+  <scale min="0.5" max="1.5"/>
+  <src x="0" y="0"/>
+  <loc x="520" y="0"/>
+  <speed x="150" y="150"/>
+  <frames>6</frames>
+  <frameInterval>20</frameInterval>
+  <speedX>10</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+<chunk>
+    <size>20</size>
+    <distance>50</distance>
+  </chunk>
+</cheese>
+<cheeseStrategy>rectangular</cheeseStrategy>
+
+<snowball>
+  <file>images/snowball.png</file>
+  <cushion>50</cushion>
+  <scale min="0.1" max="0.8"/>
+  <src x="0" y="0"/>
+  <loc x="-1000" y="0"/>
+  <speed x="250" y="250"/>
+  <transparency>true</transparency>
+</snowball>
+
+<cheese2>
+  <file>images/fish1.png</file>
+  <startLoc x="300" y="435"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</cheese2>
+
+<child>
+  <file>images/baby.png</file>
+  <startLoc x="1300" y="400"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</child>
+
+<bullet>
+  <file>images/snow1.png</file>
+  <bulletLoc swordX="320" swordY="500"/>
+  <bulletTransparency>false</bulletTransparency>  
+  <frames>3</frames>
+  <srcX>200</srcX>
+  <srcY>200</srcY>
+  <width>20</width>
+  <height>20</height>
+  <bulletSpeedX>10</bulletSpeedX>
+  <bulletSpeedY>300</bulletSpeedY>
+  
+  
+  <frameInterval>10</frameInterval>
+ 
+  <bulletSourceX>0</bulletSourceX>
+  <bulletSourceY>0</bulletSourceY>
+</bullet>
+<bulletDistance>300</bulletDistance>
+<bulletbulletInterval>10</bulletbulletInterval>
+<bulletStrategy>rectangular</bulletStrategy>
+
+</GameData>
